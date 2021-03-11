@@ -1,0 +1,46 @@
+Constraint,p_value,Measure_VAR1,Measure_VAR2,ABS-Difference,Natural_Language_Description
+RespondedExistence(ER Triage:Admission NC),0.001,0.42105263,0.79498523,0.3739326,In variant 2 it is 37.39326% more likely than variant1 that if [ER Triage] occurs: also [Admission NC] occurs. 
+Participation(Admission NC),0.001,0.42105263,0.79498523,0.3739326,In variant 2 it is 37.39326% more likely than variant1 that [Admission NC] occurs in every process instance. 
+RespondedExistence(ER Sepsis Triage:Admission NC),0.001,0.42105263,0.79498523,0.3739326,In variant 2 it is 37.39326% more likely than variant1 that if [ER Sepsis Triage] occurs: also [Admission NC] occurs. 
+AlternateResponse(ER Registration:Admission NC),0.001,0.42105263,0.79498523,0.3739326,In variant 2 it is 37.39326% more likely than variant1 that if [ER Registration] occurs: [Admission NC] will occur afterwards without any other occurrence of [ER Registration] in between. 
+RespondedExistence(ER Registration:IV Antibiotics),0.001,0.4868421,0.8259587,0.33911663,In variant 2 it is 33.911663% more likely than variant1 that if [ER Registration] occurs: also [IV Antibiotics] occurs. 
+RespondedExistence(ER Triage:IV Antibiotics),0.001,0.4868421,0.8259587,0.33911663,In variant 2 it is 33.911663% more likely than variant1 that if [ER Triage] occurs: also [IV Antibiotics] occurs. 
+Participation(IV Antibiotics),0.001,0.4868421,0.8259587,0.33911663,In variant 2 it is 33.911663% more likely than variant1 that [IV Antibiotics] occurs in every process instance. 
+AlternateResponse(ER Sepsis Triage:IV Antibiotics),0.001,0.4868421,0.8259587,0.33911663,In variant 2 it is 33.911663% more likely than variant1 that if [ER Sepsis Triage] occurs: [IV Antibiotics] will occur afterwards without any other occurrence of [ER Sepsis Triage] in between. 
+Participation(IV Liquid),0.001,0.4473684,0.75958705,0.31221864,In variant 2 it is 31.221863% more likely than variant1 that [IV Liquid] occurs in every process instance. 
+RespondedExistence(ER Sepsis Triage:IV Liquid),0.001,0.4473684,0.75958705,0.31221864,In variant 2 it is 31.221863% more likely than variant1 that if [ER Sepsis Triage] occurs: also [IV Liquid] occurs. 
+RespondedExistence(ER Registration:IV Liquid),0.001,0.4473684,0.75958705,0.31221864,In variant 2 it is 31.221863% more likely than variant1 that if [ER Registration] occurs: also [IV Liquid] occurs. 
+RespondedExistence(ER Triage:IV Liquid),0.001,0.4473684,0.75958705,0.31221864,In variant 2 it is 31.221863% more likely than variant1 that if [ER Triage] occurs: also [IV Liquid] occurs. 
+AtMostOne(CRP),0.001,0.6031746,0.3018018,0.30137283,In variant 1 it is 30.137283% more likely than variant2 that [CRP] may occur at most one time in a process instance. 
+RespondedExistence(CRP:Admission NC),0.001,0.50793654,0.8048048,0.29686826,In variant 2 it is 29.686827% more likely than variant1 that if [CRP] occurs: also [Admission NC] occurs. 
+RespondedExistence(ER Sepsis Triage:LacticAcid),0.001,0.56578946,0.8613569,0.29556745,In variant 2 it is 29.556746% more likely than variant1 that if [ER Sepsis Triage] occurs: also [LacticAcid] occurs. 
+RespondedExistence(ER Triage:LacticAcid),0.001,0.56578946,0.8613569,0.29556745,In variant 2 it is 29.556746% more likely than variant1 that if [ER Triage] occurs: also [LacticAcid] occurs. 
+Participation(LacticAcid),0.001,0.56578946,0.8613569,0.29556745,In variant 2 it is 29.556746% more likely than variant1 that [LacticAcid] occurs in every process instance. 
+RespondedExistence(ER Registration:LacticAcid),0.001,0.56578946,0.8613569,0.29556745,In variant 2 it is 29.556746% more likely than variant1 that if [ER Registration] occurs: also [LacticAcid] occurs. 
+RespondedExistence(Leucocytes:Admission NC),0.001,0.50793654,0.8029851,0.29504853,In variant 2 it is 29.504854% more likely than variant1 that if [Leucocytes] occurs: also [Admission NC] occurs. 
+AlternateResponse(ER Registration:LacticAcid),0.001,0.56578946,0.859882,0.29409254,In variant 2 it is 29.409254% more likely than variant1 that if [ER Registration] occurs: [LacticAcid] will occur afterwards without any other occurrence of [ER Registration] in between. 
+AtMostOne(Leucocytes),0.001,0.5873016,0.3119403,0.2753613,In variant 1 it is 27.536129% more likely than variant2 that [Leucocytes] may occur at most one time in a process instance. 
+RespondedExistence(CRP:IV Antibiotics),0.001,0.5873016,0.8408408,0.2535392,In variant 2 it is 25.35392% more likely than variant1 that if [CRP] occurs: also [IV Antibiotics] occurs. 
+RespondedExistence(Leucocytes:IV Antibiotics),0.001,0.5873016,0.8358209,0.2485193,In variant 2 it is 24.85193% more likely than variant1 that if [Leucocytes] occurs: also [IV Antibiotics] occurs. 
+RespondedExistence(CRP:IV Liquid),0.001,0.53968257,0.7732733,0.23359072,In variant 2 it is 23.359072% more likely than variant1 that if [CRP] occurs: also [IV Liquid] occurs. 
+Response(ER Triage:Release A),0.001,0.40789473,0.640118,0.23222327,In variant 2 it is 23.222328% more likely than variant1 that if [ER Triage] occurs: [Release A] will occur afterwards. 
+AlternateResponse(ER Registration:Release A),0.001,0.40789473,0.640118,0.23222327,In variant 2 it is 23.222328% more likely than variant1 that if [ER Registration] occurs: [Release A] will occur afterwards without any other occurrence of [ER Registration] in between. 
+AlternateResponse(ER Sepsis Triage:Release A),0.001,0.40789473,0.640118,0.23222327,In variant 2 it is 23.222328% more likely than variant1 that if [ER Sepsis Triage] occurs: [Release A] will occur afterwards without any other occurrence of [ER Sepsis Triage] in between. 
+Participation(Release A),0.001,0.40789473,0.640118,0.23222327,In variant 2 it is 23.222328% more likely than variant1 that [Release A] occurs in every process instance. 
+RespondedExistence(Leucocytes:IV Liquid),0.001,0.53968257,0.76865673,0.22897416,In variant 2 it is 22.897417% more likely than variant1 that if [Leucocytes] occurs: also [IV Liquid] occurs. 
+RespondedExistence(CRP:LacticAcid),0.001,0.6825397,0.8768769,0.19433719,In variant 2 it is 19.43372% more likely than variant1 that if [CRP] occurs: also [LacticAcid] occurs. 
+RespondedExistence(Leucocytes:LacticAcid),0.002,0.6825397,0.8716418,0.18910211,In variant 2 it is 18.910212% more likely than variant1 that if [Leucocytes] occurs: also [LacticAcid] occurs. 
+Response(Admission NC:Release A),0.004,0.96875,0.8051948,0.1635552,In variant 1 it is 16.35552% more likely than variant2 that if [Admission NC] occurs: [Release A] will occur afterwards. 
+RespondedExistence(LacticAcid:Admission NC),0.004,0.6744186,0.8339041,0.15948546,In variant 2 it is 15.948545% more likely than variant1 that if [LacticAcid] occurs: also [Admission NC] occurs. 
+RespondedExistence(ER Triage:Leucocytes),0.001,0.82894737,0.9882006,0.15925324,In variant 2 it is 15.9253235% more likely than variant1 that if [ER Triage] occurs: also [Leucocytes] occurs. 
+Participation(Leucocytes),0.001,0.82894737,0.9882006,0.15925324,In variant 2 it is 15.9253235% more likely than variant1 that [Leucocytes] occurs in every process instance. 
+RespondedExistence(ER Sepsis Triage:Leucocytes),0.001,0.82894737,0.9882006,0.15925324,In variant 2 it is 15.9253235% more likely than variant1 that if [ER Sepsis Triage] occurs: also [Leucocytes] occurs. 
+AlternateResponse(ER Registration:Leucocytes),0.001,0.82894737,0.9882006,0.15925324,In variant 2 it is 15.9253235% more likely than variant1 that if [ER Registration] occurs: [Leucocytes] will occur afterwards without any other occurrence of [ER Registration] in between. 
+RespondedExistence(LacticAcid:IV Antibiotics),0.001,0.76744187,0.92636985,0.15892798,In variant 2 it is 15.892797% more likely than variant1 that if [LacticAcid] occurs: also [IV Antibiotics] occurs. 
+RespondedExistence(LacticAcid:IV Liquid),0.002,0.6976744,0.8561644,0.15849,In variant 2 it is 15.849% more likely than variant1 that if [LacticAcid] occurs: also [IV Liquid] occurs. 
+RespondedExistence(ER Sepsis Triage:CRP),0.001,0.82894737,0.9823009,0.15335351,In variant 2 it is 15.335351% more likely than variant1 that if [ER Sepsis Triage] occurs: also [CRP] occurs. 
+AlternateResponse(ER Registration:CRP),0.001,0.82894737,0.9823009,0.15335351,In variant 2 it is 15.335351% more likely than variant1 that if [ER Registration] occurs: [CRP] will occur afterwards without any other occurrence of [ER Registration] in between. 
+RespondedExistence(ER Triage:CRP),0.001,0.82894737,0.9823009,0.15335351,In variant 2 it is 15.335351% more likely than variant1 that if [ER Triage] occurs: also [CRP] occurs. 
+Participation(CRP),0.001,0.82894737,0.9823009,0.15335351,In variant 2 it is 15.335351% more likely than variant1 that [CRP] occurs in every process instance. 
+RespondedExistence(IV Liquid:LacticAcid),0.004,0.88235295,0.9708738,0.088520825,In variant 2 it is 8.852082% more likely than variant1 that if [IV Liquid] occurs: also [LacticAcid] occurs. 
+RespondedExistence(IV Antibiotics:LacticAcid),0.007,0.8918919,0.9660714,0.07417953,In variant 2 it is 7.417953% more likely than variant1 that if [IV Antibiotics] occurs: also [LacticAcid] occurs. 

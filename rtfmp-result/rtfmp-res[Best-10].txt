@@ -1,0 +1,12 @@
+RESULTS
+"In variant 1 it is 24.803436% more likely than variant2 that if [Payment] occurs, also [Send Fine] occurs. "
+"In variant 1 it is 19.566711% more likely than variant2 that if [Payment] occurs, also [Add penalty] occurs. "
+"In variant 1 it is 19.566711% more likely than variant2 that if [Payment] occurs, also [Insert Fine Notification] occurs. "
+"In variant 1 it is 19.41096% more likely than variant2 that [Add penalty] occurs in every process instance. "
+"In variant 1 it is 19.41096% more likely than variant2 that [Insert Fine Notification] occurs in every process instance. "
+"In variant 1 it is 19.41096% more likely than variant2 that if [Create Fine] occurs, [Add penalty] will occur afterwards without any other occurrence of [Create Fine] in between. "
+"In variant 1 it is 19.41096% more likely than variant2 that if [Create Fine] occurs, [Insert Fine Notification] will occur afterwards without any other occurrence of [Create Fine] in between. "
+"In variant 1 it is 19.193304% more likely than variant2 that [Send Fine] occurs in every process instance. "
+"In variant 1 it is 19.193304% more likely than variant2 that if [Create Fine] occurs, [Send Fine] will occur afterwards without any other occurrence of [Create Fine] in between. "
+"In variant 1 it is 14.47891% more likely than variant2 that [Send for Credit Collection] occurs in every process instance. "
+"In variant 1 it is 14.47891% more likely than variant2 that if [Create Fine] occurs, [Send for Credit Collection] will occur afterwards without any other occurrence of [Create Fine] in between. "

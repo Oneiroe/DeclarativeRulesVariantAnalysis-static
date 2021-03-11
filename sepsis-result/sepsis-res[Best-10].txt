@@ -1,0 +1,13 @@
+RESULTS
+"In variant 2 it is 37.39326% more likely than variant1 that [Admission NC] occurs in every process instance. "
+"In variant 2 it is 37.39326% more likely than variant1 that if [ER Registration] occurs, [Admission NC] will occur afterwards without any other occurrence of [ER Registration] in between. "
+"In variant 2 it is 37.39326% more likely than variant1 that if [ER Sepsis Triage] occurs, also [Admission NC] occurs. "
+"In variant 2 it is 37.39326% more likely than variant1 that if [ER Triage] occurs, also [Admission NC] occurs. "
+"In variant 2 it is 33.911663% more likely than variant1 that [IV Antibiotics] occurs in every process instance. "
+"In variant 2 it is 33.911663% more likely than variant1 that if [ER Registration] occurs, also [IV Antibiotics] occurs. "
+"In variant 2 it is 33.911663% more likely than variant1 that if [ER Sepsis Triage] occurs, [IV Antibiotics] will occur afterwards without any other occurrence of [ER Sepsis Triage] in between. "
+"In variant 2 it is 33.911663% more likely than variant1 that if [ER Triage] occurs, also [IV Antibiotics] occurs. "
+"In variant 2 it is 31.221863% more likely than variant1 that [IV Liquid] occurs in every process instance. "
+"In variant 2 it is 31.221863% more likely than variant1 that if [ER Registration] occurs, also [IV Liquid] occurs. "
+"In variant 2 it is 31.221863% more likely than variant1 that if [ER Sepsis Triage] occurs, also [IV Liquid] occurs. "
+"In variant 2 it is 31.221863% more likely than variant1 that if [ER Triage] occurs, also [IV Liquid] occurs. "

@@ -1,0 +1,224 @@
+'Constraint';'Template';'Activation';'Target';'Support';'Confidence level';'Interest factor'
+'AtMostOne(Admission NC)';'AtMostOne';'Admission NC';;0.677;0.538;0.428
+'Participation(Admission NC)';'Participation';'Admission NC';;0.795;0.632;0.502
+'RespondedExistence(Admission NC, CRP)';'RespondedExistence';'Admission NC';'CRP';0.996;0.792;0.778
+'NotChainSuccession(Admission NC, CRP)';'NotChainSuccession';'Admission NC';'CRP';0.835;0.664;0.652
+'NotSuccession(Admission NC, ER Registration)';'NotSuccession';'Admission NC';'ER Registration';1.000;0.795;0.795
+'RespondedExistence(Admission NC, ER Sepsis Triage)';'RespondedExistence';'Admission NC';'ER Sepsis Triage';1.000;0.795;0.795
+'NotSuccession(Admission NC, ER Sepsis Triage)';'NotSuccession';'Admission NC';'ER Sepsis Triage';0.995;0.791;0.791
+'NotSuccession(Admission NC, ER Triage)';'NotSuccession';'Admission NC';'ER Triage';0.999;0.794;0.794
+'RespondedExistence(Admission NC, IV Antibiotics)';'RespondedExistence';'Admission NC';'IV Antibiotics';0.889;0.707;0.584
+'NotChainSuccession(Admission NC, IV Antibiotics)';'NotChainSuccession';'Admission NC';'IV Antibiotics';0.999;0.794;0.656
+'RespondedExistence(Admission NC, IV Liquid)';'RespondedExistence';'Admission NC';'IV Liquid';0.827;0.657;0.499
+'NotChainSuccession(Admission NC, IV Liquid)';'NotChainSuccession';'Admission NC';'IV Liquid';0.982;0.746;0.593
+'RespondedExistence(Admission NC, LacticAcid)';'RespondedExistence';'Admission NC';'LacticAcid';0.919;0.731;0.629
+'NotChainSuccession(Admission NC, LacticAcid)';'NotChainSuccession';'Admission NC';'LacticAcid';0.977;0.777;0.669
+'RespondedExistence(Admission NC, Leucocytes)';'RespondedExistence';'Admission NC';'Leucocytes';0.998;0.793;0.784
+'NotChainSuccession(Admission NC, Leucocytes)';'NotChainSuccession';'Admission NC';'Leucocytes';0.821;0.652;0.645
+'Response(Admission NC, Release A)';'Response';'Admission NC';'Release A';0.792;0.629;0.403
+'NotChainSuccession(Admission NC, Release A)';'NotChainSuccession';'Admission NC';'Release A';0.887;0.568;0.451
+'NotChainSuccession(Admission NC, Return ER)';'NotChainSuccession';'Admission NC';'Return ER';1.000;0.304;0.242
+'Precedence(ER Registration, Admission NC)';'Precedence';'Admission NC';'ER Registration';1.000;1.000;0.795
+'Precedence(ER Triage, Admission NC)';'Precedence';'Admission NC';'ER Triage';1.000;1.000;0.795
+'Participation(CRP)';'Participation';'CRP';;0.982;0.965;0.948
+'RespondedExistence(CRP, Admission NC)';'RespondedExistence';'CRP';'Admission NC';0.918;0.901;0.717
+'NotChainSuccession(CRP, Admission NC)';'NotChainSuccession';'CRP';'Admission NC';0.915;0.728;0.715
+'RespondedExistence(CRP, ER Registration)';'RespondedExistence';'CRP';'ER Registration';1.000;0.982;0.982
+'NotChainSuccession(CRP, ER Registration)';'NotChainSuccession';'CRP';'ER Registration';0.997;0.979;0.979
+'RespondedExistence(CRP, ER Sepsis Triage)';'RespondedExistence';'CRP';'ER Sepsis Triage';1.000;0.982;0.982
+'NotChainSuccession(CRP, ER Sepsis Triage)';'NotChainSuccession';'CRP';'ER Sepsis Triage';0.986;0.968;0.968
+'RespondedExistence(CRP, ER Triage)';'RespondedExistence';'CRP';'ER Triage';1.000;0.982;0.982
+'NotChainSuccession(CRP, ER Triage)';'NotChainSuccession';'CRP';'ER Triage';0.992;0.975;0.975
+'RespondedExistence(CRP, IV Antibiotics)';'RespondedExistence';'CRP';'IV Antibiotics';0.884;0.868;0.717
+'NotChainSuccession(CRP, IV Antibiotics)';'NotChainSuccession';'CRP';'IV Antibiotics';0.965;0.797;0.783
+'RespondedExistence(CRP, IV Liquid)';'RespondedExistence';'CRP';'IV Liquid';0.817;0.802;0.609
+'NotChainSuccession(CRP, IV Liquid)';'NotChainSuccession';'CRP';'IV Liquid';0.947;0.719;0.707
+'RespondedExistence(CRP, LacticAcid)';'RespondedExistence';'CRP';'LacticAcid';0.916;0.900;0.775
+'NotChainSuccession(CRP, LacticAcid)';'NotChainSuccession';'CRP';'LacticAcid';0.744;0.641;0.629
+'RespondedExistence(CRP, Leucocytes)';'RespondedExistence';'CRP';'Leucocytes';1.000;0.982;0.970
+'NotChainSuccession(CRP, Leucocytes)';'NotChainSuccession';'CRP';'Leucocytes';0.554;0.544;0.537
+'RespondedExistence(CRP, Release A)';'RespondedExistence';'CRP';'Release A';0.694;0.682;0.436
+'NotChainSuccession(CRP, Release A)';'NotChainSuccession';'CRP';'Release A';0.844;0.540;0.531
+'NotChainSuccession(CRP, Return ER)';'NotChainSuccession';'CRP';'Return ER';1.000;0.304;0.298
+'AtMostOne(ER Registration)';'AtMostOne';'ER Registration';;1.000;1.000;1.000
+'Participation(ER Registration)';'Participation';'ER Registration';;1.000;1.000;1.000
+'AlternateResponse(ER Registration, Admission NC)';'AlternateResponse';'ER Registration';'Admission NC';0.795;0.795;0.632
+'NotChainSuccession(ER Registration, Admission NC)';'NotChainSuccession';'ER Registration';'Admission NC';1.000;0.795;0.795
+'AlternateResponse(ER Registration, CRP)';'AlternateResponse';'ER Registration';'CRP';0.982;0.982;0.965
+'NotChainSuccession(ER Registration, CRP)';'NotChainSuccession';'ER Registration';'CRP';0.994;0.976;0.976
+'CoExistence(ER Registration, ER Sepsis Triage)';'CoExistence';'ER Registration';'ER Sepsis Triage';1.000;1.000;1.000
+'NotChainSuccession(ER Registration, ER Sepsis Triage)';'NotChainSuccession';'ER Registration';'ER Sepsis Triage';0.988;0.988;0.988
+'CoExistence(ER Registration, ER Triage)';'CoExistence';'ER Registration';'ER Triage';1.000;1.000;1.000
+'RespondedExistence(ER Registration, IV Antibiotics)';'RespondedExistence';'ER Registration';'IV Antibiotics';0.826;0.826;0.682
+'NotChainSuccession(ER Registration, IV Antibiotics)';'NotChainSuccession';'ER Registration';'IV Antibiotics';1.000;0.826;0.826
+'RespondedExistence(ER Registration, IV Liquid)';'RespondedExistence';'ER Registration';'IV Liquid';0.760;0.760;0.577
+'NotChainSuccession(ER Registration, IV Liquid)';'NotChainSuccession';'ER Registration';'IV Liquid';0.982;0.746;0.746
+'RespondedExistence(ER Registration, LacticAcid)';'RespondedExistence';'ER Registration';'LacticAcid';0.861;0.861;0.742
+'NotChainSuccession(ER Registration, LacticAcid)';'NotChainSuccession';'ER Registration';'LacticAcid';0.993;0.855;0.855
+'AlternateResponse(ER Registration, Leucocytes)';'AlternateResponse';'ER Registration';'Leucocytes';0.988;0.988;0.977
+'NotChainSuccession(ER Registration, Leucocytes)';'NotChainSuccession';'ER Registration';'Leucocytes';0.991;0.980;0.980
+'AlternateResponse(ER Registration, Release A)';'AlternateResponse';'ER Registration';'Release A';0.640;0.640;0.410
+'NotChainSuccession(ER Registration, Release A)';'NotChainSuccession';'ER Registration';'Release A';1.000;0.640;0.640
+'NotChainSuccession(ER Registration, Return ER)';'NotChainSuccession';'ER Registration';'Return ER';1.000;0.304;0.304
+'AtMostOne(ER Sepsis Triage)';'AtMostOne';'ER Sepsis Triage';;1.000;1.000;1.000
+'Participation(ER Sepsis Triage)';'Participation';'ER Sepsis Triage';;1.000;1.000;1.000
+'RespondedExistence(ER Sepsis Triage, Admission NC)';'RespondedExistence';'ER Sepsis Triage';'Admission NC';0.795;0.795;0.632
+'NotChainSuccession(ER Sepsis Triage, Admission NC)';'NotChainSuccession';'ER Sepsis Triage';'Admission NC';0.986;0.784;0.784
+'RespondedExistence(ER Sepsis Triage, CRP)';'RespondedExistence';'ER Sepsis Triage';'CRP';0.982;0.982;0.965
+'NotChainSuccession(ER Sepsis Triage, CRP)';'NotChainSuccession';'ER Sepsis Triage';'CRP';0.912;0.896;0.896
+'CoExistence(ER Sepsis Triage, ER Registration)';'CoExistence';'ER Sepsis Triage';'ER Registration';1.000;1.000;1.000
+'NotChainSuccession(ER Sepsis Triage, ER Registration)';'NotChainSuccession';'ER Sepsis Triage';'ER Registration';0.996;0.996;0.996
+'CoExistence(ER Sepsis Triage, ER Triage)';'CoExistence';'ER Sepsis Triage';'ER Triage';1.000;1.000;1.000
+'NotChainSuccession(ER Sepsis Triage, ER Triage)';'NotChainSuccession';'ER Sepsis Triage';'ER Triage';0.994;0.994;0.994
+'AlternateResponse(ER Sepsis Triage, IV Antibiotics)';'AlternateResponse';'ER Sepsis Triage';'IV Antibiotics';0.826;0.826;0.682
+'NotChainSuccession(ER Sepsis Triage, IV Antibiotics)';'NotChainSuccession';'ER Sepsis Triage';'IV Antibiotics';0.919;0.759;0.759
+'RespondedExistence(ER Sepsis Triage, IV Liquid)';'RespondedExistence';'ER Sepsis Triage';'IV Liquid';0.760;0.760;0.577
+'NotChainSuccession(ER Sepsis Triage, IV Liquid)';'NotChainSuccession';'ER Sepsis Triage';'IV Liquid';0.673;0.511;0.511
+'RespondedExistence(ER Sepsis Triage, LacticAcid)';'RespondedExistence';'ER Sepsis Triage';'LacticAcid';0.861;0.861;0.742
+'NotChainSuccession(ER Sepsis Triage, LacticAcid)';'NotChainSuccession';'ER Sepsis Triage';'LacticAcid';0.879;0.757;0.757
+'RespondedExistence(ER Sepsis Triage, Leucocytes)';'RespondedExistence';'ER Sepsis Triage';'Leucocytes';0.988;0.988;0.977
+'NotChainSuccession(ER Sepsis Triage, Leucocytes)';'NotChainSuccession';'ER Sepsis Triage';'Leucocytes';0.882;0.872;0.872
+'AlternateResponse(ER Sepsis Triage, Release A)';'AlternateResponse';'ER Sepsis Triage';'Release A';0.640;0.640;0.410
+'NotChainSuccession(ER Sepsis Triage, Release A)';'NotChainSuccession';'ER Sepsis Triage';'Release A';1.000;0.640;0.640
+'NotChainSuccession(ER Sepsis Triage, Return ER)';'NotChainSuccession';'ER Sepsis Triage';'Return ER';1.000;0.304;0.304
+'AtMostOne(ER Triage)';'AtMostOne';'ER Triage';;0.997;0.997;0.997
+'Participation(ER Triage)';'Participation';'ER Triage';;1.000;1.000;1.000
+'RespondedExistence(ER Triage, Admission NC)';'RespondedExistence';'ER Triage';'Admission NC';0.794;0.794;0.631
+'NotChainSuccession(ER Triage, Admission NC)';'NotChainSuccession';'ER Triage';'Admission NC';1.000;0.795;0.795
+'RespondedExistence(ER Triage, CRP)';'RespondedExistence';'ER Triage';'CRP';0.982;0.982;0.965
+'NotChainSuccession(ER Triage, CRP)';'NotChainSuccession';'ER Triage';'CRP';0.977;0.959;0.959
+'CoExistence(ER Triage, ER Registration)';'CoExistence';'ER Triage';'ER Registration';1.000;1.000;1.000
+'NotSuccession(ER Triage, ER Registration)';'NotSuccession';'ER Triage';'ER Registration';0.994;0.994;0.994
+'CoExistence(ER Triage, ER Sepsis Triage)';'CoExistence';'ER Triage';'ER Sepsis Triage';1.000;1.000;1.000
+'RespondedExistence(ER Triage, IV Antibiotics)';'RespondedExistence';'ER Triage';'IV Antibiotics';0.825;0.825;0.681
+'NotChainSuccession(ER Triage, IV Antibiotics)';'NotChainSuccession';'ER Triage';'IV Antibiotics';0.998;0.825;0.825
+'RespondedExistence(ER Triage, IV Liquid)';'RespondedExistence';'ER Triage';'IV Liquid';0.759;0.759;0.576
+'NotChainSuccession(ER Triage, IV Liquid)';'NotChainSuccession';'ER Triage';'IV Liquid';0.990;0.752;0.752
+'RespondedExistence(ER Triage, LacticAcid)';'RespondedExistence';'ER Triage';'LacticAcid';0.860;0.860;0.741
+'NotChainSuccession(ER Triage, LacticAcid)';'NotChainSuccession';'ER Triage';'LacticAcid';0.974;0.839;0.839
+'RespondedExistence(ER Triage, Leucocytes)';'RespondedExistence';'ER Triage';'Leucocytes';0.988;0.988;0.977
+'NotChainSuccession(ER Triage, Leucocytes)';'NotChainSuccession';'ER Triage';'Leucocytes';0.978;0.967;0.967
+'Response(ER Triage, Release A)';'Response';'ER Triage';'Release A';0.640;0.640;0.409
+'NotChainSuccession(ER Triage, Release A)';'NotChainSuccession';'ER Triage';'Release A';1.000;0.640;0.640
+'NotChainSuccession(ER Triage, Return ER)';'NotChainSuccession';'ER Triage';'Return ER';1.000;0.304;0.304
+'AtMostOne(IV Antibiotics)';'AtMostOne';'IV Antibiotics';;1.000;0.826;0.682
+'Participation(IV Antibiotics)';'Participation';'IV Antibiotics';;0.826;0.682;0.563
+'AlternatePrecedence(ER Sepsis Triage, IV Antibiotics)';'AlternatePrecedence';'IV Antibiotics';'ER Sepsis Triage';1.000;1.000;0.826
+'RespondedExistence(IV Antibiotics, Admission NC)';'RespondedExistence';'IV Antibiotics';'Admission NC';0.841;0.695;0.552
+'NotChainSuccession(IV Antibiotics, Admission NC)';'NotChainSuccession';'IV Antibiotics';'Admission NC';0.517;0.411;0.339
+'RespondedExistence(IV Antibiotics, CRP)';'RespondedExistence';'IV Antibiotics';'CRP';1.000;0.826;0.811
+'NotChainSuccession(IV Antibiotics, CRP)';'NotChainSuccession';'IV Antibiotics';'CRP';0.979;0.808;0.794
+'RespondedExistence(IV Antibiotics, ER Registration)';'RespondedExistence';'IV Antibiotics';'ER Registration';1.000;0.826;0.826
+'NotChainSuccession(IV Antibiotics, ER Registration)';'NotChainSuccession';'IV Antibiotics';'ER Registration';0.998;0.825;0.825
+'NotSuccession(IV Antibiotics, ER Sepsis Triage)';'NotSuccession';'IV Antibiotics';'ER Sepsis Triage';1.000;0.826;0.826
+'RespondedExistence(IV Antibiotics, ER Triage)';'RespondedExistence';'IV Antibiotics';'ER Triage';1.000;0.826;0.826
+'NotChainSuccession(IV Antibiotics, ER Triage)';'NotChainSuccession';'IV Antibiotics';'ER Triage';0.997;0.823;0.823
+'RespondedExistence(IV Antibiotics, IV Liquid)';'RespondedExistence';'IV Antibiotics';'IV Liquid';0.920;0.760;0.577
+'NotChainSuccession(IV Antibiotics, IV Liquid)';'NotChainSuccession';'IV Antibiotics';'IV Liquid';0.920;0.699;0.577
+'RespondedExistence(IV Antibiotics, LacticAcid)';'RespondedExistence';'IV Antibiotics';'LacticAcid';0.966;0.798;0.687
+'NotChainSuccession(IV Antibiotics, LacticAcid)';'NotChainSuccession';'IV Antibiotics';'LacticAcid';0.968;0.800;0.689
+'RespondedExistence(IV Antibiotics, Leucocytes)';'RespondedExistence';'IV Antibiotics';'Leucocytes';1.000;0.826;0.816
+'NotChainSuccession(IV Antibiotics, Leucocytes)';'NotChainSuccession';'IV Antibiotics';'Leucocytes';0.971;0.802;0.793
+'AlternateResponse(IV Antibiotics, Release A)';'AlternateResponse';'IV Antibiotics';'Release A';0.684;0.565;0.362
+'NotChainSuccession(IV Antibiotics, Release A)';'NotChainSuccession';'IV Antibiotics';'Release A';0.996;0.638;0.527
+'NotChainSuccession(IV Antibiotics, Return ER)';'NotChainSuccession';'IV Antibiotics';'Return ER';1.000;0.304;0.251
+'AtMostOne(IV Liquid)';'AtMostOne';'IV Liquid';;1.000;0.760;0.577
+'Participation(IV Liquid)';'Participation';'IV Liquid';;0.760;0.577;0.438
+'RespondedExistence(IV Liquid, Admission NC)';'RespondedExistence';'IV Liquid';'Admission NC';0.843;0.640;0.509
+'NotChainSuccession(IV Liquid, Admission NC)';'NotChainSuccession';'IV Liquid';'Admission NC';0.941;0.715;0.568
+'RespondedExistence(IV Liquid, CRP)';'RespondedExistence';'IV Liquid';'CRP';1.000;0.760;0.746
+'NotChainSuccession(IV Liquid, CRP)';'NotChainSuccession';'IV Liquid';'CRP';0.980;0.744;0.731
+'RespondedExistence(IV Liquid, ER Registration)';'RespondedExistence';'IV Liquid';'ER Registration';1.000;0.760;0.760
+'NotChainSuccession(IV Liquid, ER Registration)';'NotChainSuccession';'IV Liquid';'ER Registration';0.980;0.744;0.744
+'RespondedExistence(IV Liquid, ER Sepsis Triage)';'RespondedExistence';'IV Liquid';'ER Sepsis Triage';1.000;0.760;0.760
+'NotChainSuccession(IV Liquid, ER Sepsis Triage)';'NotChainSuccession';'IV Liquid';'ER Sepsis Triage';0.997;0.757;0.757
+'RespondedExistence(IV Liquid, ER Triage)';'RespondedExistence';'IV Liquid';'ER Triage';1.000;0.760;0.760
+'NotChainSuccession(IV Liquid, ER Triage)';'NotChainSuccession';'IV Liquid';'ER Triage';0.978;0.743;0.743
+'RespondedExistence(IV Liquid, IV Antibiotics)';'RespondedExistence';'IV Liquid';'IV Antibiotics';1.000;0.760;0.627
+'RespondedExistence(IV Liquid, LacticAcid)';'RespondedExistence';'IV Liquid';'LacticAcid';0.971;0.737;0.635
+'NotChainSuccession(IV Liquid, LacticAcid)';'NotChainSuccession';'IV Liquid';'LacticAcid';0.967;0.735;0.633
+'RespondedExistence(IV Liquid, Leucocytes)';'RespondedExistence';'IV Liquid';'Leucocytes';1.000;0.760;0.751
+'NotChainSuccession(IV Liquid, Leucocytes)';'NotChainSuccession';'IV Liquid';'Leucocytes';0.980;0.745;0.736
+'AlternateResponse(IV Liquid, Release A)';'AlternateResponse';'IV Liquid';'Release A';0.683;0.519;0.332
+'NotChainSuccession(IV Liquid, Release A)';'NotChainSuccession';'IV Liquid';'Release A';0.998;0.639;0.485
+'NotChainSuccession(IV Liquid, Return ER)';'NotChainSuccession';'IV Liquid';'Return ER';1.000;0.304;0.231
+'AtMostOne(LacticAcid)';'AtMostOne';'LacticAcid';;0.855;0.737;0.635
+'Participation(LacticAcid)';'Participation';'LacticAcid';;0.861;0.742;0.639
+'RespondedExistence(LacticAcid, Admission NC)';'RespondedExistence';'LacticAcid';'Admission NC';0.842;0.725;0.576
+'NotChainSuccession(LacticAcid, Admission NC)';'NotChainSuccession';'LacticAcid';'Admission NC';0.924;0.735;0.633
+'RespondedExistence(LacticAcid, CRP)';'RespondedExistence';'LacticAcid';'CRP';1.000;0.861;0.846
+'NotChainSuccession(LacticAcid, CRP)';'NotChainSuccession';'LacticAcid';'CRP';0.834;0.718;0.706
+'RespondedExistence(LacticAcid, ER Registration)';'RespondedExistence';'LacticAcid';'ER Registration';1.000;0.861;0.861
+'NotChainSuccession(LacticAcid, ER Registration)';'NotChainSuccession';'LacticAcid';'ER Registration';1.000;0.861;0.861
+'RespondedExistence(LacticAcid, ER Sepsis Triage)';'RespondedExistence';'LacticAcid';'ER Sepsis Triage';1.000;0.861;0.861
+'NotChainSuccession(LacticAcid, ER Sepsis Triage)';'NotChainSuccession';'LacticAcid';'ER Sepsis Triage';0.963;0.830;0.830
+'RespondedExistence(LacticAcid, ER Triage)';'RespondedExistence';'LacticAcid';'ER Triage';1.000;0.861;0.861
+'NotChainSuccession(LacticAcid, ER Triage)';'NotChainSuccession';'LacticAcid';'ER Triage';0.990;0.853;0.853
+'RespondedExistence(LacticAcid, IV Antibiotics)';'RespondedExistence';'LacticAcid';'IV Antibiotics';0.931;0.802;0.663
+'NotChainSuccession(LacticAcid, IV Antibiotics)';'NotChainSuccession';'LacticAcid';'IV Antibiotics';0.929;0.767;0.661
+'RespondedExistence(LacticAcid, IV Liquid)';'RespondedExistence';'LacticAcid';'IV Liquid';0.875;0.754;0.573
+'NotChainSuccession(LacticAcid, IV Liquid)';'NotChainSuccession';'LacticAcid';'IV Liquid';0.881;0.669;0.576
+'RespondedExistence(LacticAcid, Leucocytes)';'RespondedExistence';'LacticAcid';'Leucocytes';1.000;0.861;0.851
+'NotChainSuccession(LacticAcid, Leucocytes)';'NotChainSuccession';'LacticAcid';'Leucocytes';0.775;0.667;0.659
+'RespondedExistence(LacticAcid, Release A)';'RespondedExistence';'LacticAcid';'Release A';0.658;0.566;0.363
+'NotChainSuccession(LacticAcid, Release A)';'NotChainSuccession';'LacticAcid';'Release A';0.996;0.637;0.549
+'NotChainSuccession(LacticAcid, Return ER)';'NotChainSuccession';'LacticAcid';'Return ER';1.000;0.304;0.262
+'Participation(Leucocytes)';'Participation';'Leucocytes';;0.988;0.977;0.965
+'RespondedExistence(Leucocytes, Admission NC)';'RespondedExistence';'Leucocytes';'Admission NC';0.913;0.903;0.718
+'NotChainSuccession(Leucocytes, Admission NC)';'NotChainSuccession';'Leucocytes';'Admission NC';0.936;0.744;0.735
+'RespondedExistence(Leucocytes, CRP)';'RespondedExistence';'Leucocytes';'CRP';0.997;0.985;0.968
+'RespondedExistence(Leucocytes, ER Registration)';'RespondedExistence';'Leucocytes';'ER Registration';1.000;0.988;0.988
+'NotChainSuccession(Leucocytes, ER Registration)';'NotChainSuccession';'Leucocytes';'ER Registration';0.997;0.985;0.985
+'RespondedExistence(Leucocytes, ER Sepsis Triage)';'RespondedExistence';'Leucocytes';'ER Sepsis Triage';1.000;0.988;0.988
+'NotChainSuccession(Leucocytes, ER Sepsis Triage)';'NotChainSuccession';'Leucocytes';'ER Sepsis Triage';0.981;0.970;0.970
+'RespondedExistence(Leucocytes, ER Triage)';'RespondedExistence';'Leucocytes';'ER Triage';1.000;0.988;0.988
+'NotChainSuccession(Leucocytes, ER Triage)';'NotChainSuccession';'Leucocytes';'ER Triage';0.996;0.984;0.984
+'RespondedExistence(Leucocytes, IV Antibiotics)';'RespondedExistence';'Leucocytes';'IV Antibiotics';0.879;0.869;0.718
+'NotChainSuccession(Leucocytes, IV Antibiotics)';'NotChainSuccession';'Leucocytes';'IV Antibiotics';0.968;0.799;0.790
+'RespondedExistence(Leucocytes, IV Liquid)';'RespondedExistence';'Leucocytes';'IV Liquid';0.820;0.811;0.616
+'NotChainSuccession(Leucocytes, IV Liquid)';'NotChainSuccession';'Leucocytes';'IV Liquid';0.947;0.719;0.711
+'RespondedExistence(Leucocytes, LacticAcid)';'RespondedExistence';'Leucocytes';'LacticAcid';0.912;0.901;0.776
+'NotChainSuccession(Leucocytes, LacticAcid)';'NotChainSuccession';'Leucocytes';'LacticAcid';0.825;0.710;0.702
+'RespondedExistence(Leucocytes, Release A)';'RespondedExistence';'Leucocytes';'Release A';0.689;0.681;0.436
+'NotChainSuccession(Leucocytes, Release A)';'NotChainSuccession';'Leucocytes';'Release A';0.892;0.571;0.564
+'NotChainSuccession(Leucocytes, Return ER)';'NotChainSuccession';'Leucocytes';'Return ER';0.999;0.304;0.300
+'AtMostOne(Release A)';'AtMostOne';'Release A';;1.000;0.640;0.410
+'Participation(Release A)';'Participation';'Release A';;0.640;0.410;0.262
+'AlternatePrecedence(Admission NC, Release A)';'AlternatePrecedence';'Release A';'Admission NC';1.000;0.795;0.509
+'AlternatePrecedence(CRP, Release A)';'AlternatePrecedence';'Release A';'CRP';0.993;0.976;0.624
+'AlternatePrecedence(ER Registration, Release A)';'AlternatePrecedence';'Release A';'ER Registration';1.000;1.000;0.640
+'AlternatePrecedence(ER Sepsis Triage, Release A)';'AlternatePrecedence';'Release A';'ER Sepsis Triage';1.000;1.000;0.640
+'AlternatePrecedence(ER Triage, Release A)';'AlternatePrecedence';'Release A';'ER Triage';1.000;1.000;0.640
+'AlternatePrecedence(IV Antibiotics, Release A)';'AlternatePrecedence';'Release A';'IV Antibiotics';0.882;0.729;0.467
+'AlternatePrecedence(IV Liquid, Release A)';'AlternatePrecedence';'Release A';'IV Liquid';0.811;0.616;0.394
+'AlternatePrecedence(LacticAcid, Release A)';'AlternatePrecedence';'Release A';'LacticAcid';0.903;0.778;0.498
+'AlternatePrecedence(Leucocytes, Release A)';'AlternatePrecedence';'Release A';'Leucocytes';0.998;0.986;0.631
+'NotSuccession(Release A, Admission NC)';'NotSuccession';'Release A';'Admission NC';1.000;0.640;0.509
+'NotChainSuccession(Release A, CRP)';'NotChainSuccession';'Release A';'CRP';1.000;0.640;0.629
+'NotSuccession(Release A, ER Registration)';'NotSuccession';'Release A';'ER Registration';1.000;0.640;0.640
+'NotSuccession(Release A, ER Sepsis Triage)';'NotSuccession';'Release A';'ER Sepsis Triage';1.000;0.640;0.640
+'NotSuccession(Release A, ER Triage)';'NotSuccession';'Release A';'ER Triage';1.000;0.640;0.640
+'NotSuccession(Release A, IV Antibiotics)';'NotSuccession';'Release A';'IV Antibiotics';1.000;0.640;0.529
+'NotSuccession(Release A, IV Liquid)';'NotSuccession';'Release A';'IV Liquid';1.000;0.640;0.486
+'NotChainSuccession(Release A, LacticAcid)';'NotChainSuccession';'Release A';'LacticAcid';1.000;0.640;0.551
+'NotChainSuccession(Release A, Leucocytes)';'NotChainSuccession';'Release A';'Leucocytes';0.999;0.640;0.632
+'AlternatePrecedence(Admission NC, Return ER)';'AlternatePrecedence';'Return ER';'Admission NC';1.000;0.795;0.242
+'AlternatePrecedence(CRP, Return ER)';'AlternatePrecedence';'Return ER';'CRP';1.000;0.982;0.298
+'AlternatePrecedence(ER Registration, Return ER)';'AlternatePrecedence';'Return ER';'ER Registration';1.000;1.000;0.304
+'AlternatePrecedence(ER Sepsis Triage, Return ER)';'AlternatePrecedence';'Return ER';'ER Sepsis Triage';1.000;1.000;0.304
+'AlternatePrecedence(ER Triage, Return ER)';'AlternatePrecedence';'Return ER';'ER Triage';1.000;1.000;0.304
+'AlternatePrecedence(IV Antibiotics, Return ER)';'AlternatePrecedence';'Return ER';'IV Antibiotics';0.898;0.742;0.225
+'AlternatePrecedence(IV Liquid, Return ER)';'AlternatePrecedence';'Return ER';'IV Liquid';0.825;0.627;0.190
+'AlternatePrecedence(LacticAcid, Return ER)';'AlternatePrecedence';'Return ER';'LacticAcid';0.942;0.811;0.246
+'AlternatePrecedence(Leucocytes, Return ER)';'AlternatePrecedence';'Return ER';'Leucocytes';0.995;0.983;0.299
+'AlternatePrecedence(Release A, Return ER)';'AlternatePrecedence';'Return ER';'Release A';0.922;0.590;0.179
+'NotSuccession(Return ER, Admission NC)';'NotSuccession';'Return ER';'Admission NC';1.000;0.304;0.242
+'NotSuccession(Return ER, CRP)';'NotSuccession';'Return ER';'CRP';0.998;0.303;0.298
+'NotSuccession(Return ER, ER Registration)';'NotSuccession';'Return ER';'ER Registration';1.000;0.304;0.304
+'NotSuccession(Return ER, ER Sepsis Triage)';'NotSuccession';'Return ER';'ER Sepsis Triage';1.000;0.304;0.304
+'NotSuccession(Return ER, ER Triage)';'NotSuccession';'Return ER';'ER Triage';1.000;0.304;0.304
+'NotSuccession(Return ER, IV Antibiotics)';'NotSuccession';'Return ER';'IV Antibiotics';1.000;0.304;0.251
+'NotSuccession(Return ER, IV Liquid)';'NotSuccession';'Return ER';'IV Liquid';1.000;0.304;0.231
+'NotChainSuccession(Return ER, LacticAcid)';'NotChainSuccession';'Return ER';'LacticAcid';1.000;0.304;0.262
+'NotChainSuccession(Return ER, Leucocytes)';'NotChainSuccession';'Return ER';'Leucocytes';1.000;0.304;0.300
+'NotSuccession(Return ER, Release A)';'NotSuccession';'Return ER';'Release A';1.000;0.304;0.194

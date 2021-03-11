@@ -1,0 +1,16 @@
+'Constraint';'Template';'Activation';'Target';'Support';'Confidence level';'Interest factor'
+'Participation(Accepted)';'Participation';'Accepted';;1.000;1.000;1.000
+'Response(Accepted, Completed)';'Response';'Accepted';'Completed';0.999;0.999;0.998
+'NotChainSuccession(Accepted, Completed)';'NotChainSuccession';'Accepted';'Completed';0.632;0.632;0.632
+'RespondedExistence(Accepted, Queued)';'RespondedExistence';'Accepted';'Queued';0.655;0.655;0.279
+'NotChainSuccession(Accepted, Queued)';'NotChainSuccession';'Accepted';'Queued';0.740;0.315;0.315
+'End(Completed)';'End';'Completed';;0.999;0.998;0.997
+'RespondedExistence(Completed, Accepted)';'RespondedExistence';'Completed';'Accepted';1.000;0.999;0.999
+'NotChainSuccession(Completed, Accepted)';'NotChainSuccession';'Completed';'Accepted';0.979;0.978;0.978
+'RespondedExistence(Completed, Queued)';'RespondedExistence';'Completed';'Queued';0.543;0.542;0.231
+'NotChainSuccession(Completed, Queued)';'NotChainSuccession';'Completed';'Queued';0.993;0.423;0.422
+'AtMostOne(Queued)';'AtMostOne';'Queued';;0.831;0.354;0.151
+'RespondedExistence(Queued, Accepted)';'RespondedExistence';'Queued';'Accepted';1.000;0.426;0.426
+'NotChainSuccession(Queued, Accepted)';'NotChainSuccession';'Queued';'Accepted';0.701;0.299;0.299
+'Response(Queued, Completed)';'Response';'Queued';'Completed';0.999;0.425;0.425
+'NotChainSuccession(Queued, Completed)';'NotChainSuccession';'Queued';'Completed';0.999;0.426;0.425

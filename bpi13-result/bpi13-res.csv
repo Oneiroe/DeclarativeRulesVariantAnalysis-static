@@ -1,0 +1,5 @@
+Constraint,p_value,Measure_VAR1,Measure_VAR2,ABS-Difference,Natural_Language_Description
+Participation(Queued),0.001,0.5262206,0.42585465,0.10036597,"In variant 1 it is 10.036596% more likely than variant2 that [Queued] occurs in a process instance. "
+RespondedExistence(Completed:Queued),0.001,0.52717394,0.42601404,0.1011599,"In variant 1 it is 10.11599% more likely than variant2 that if [Completed] occurs: also [Queued] occurs. "
+RespondedExistence(Accepted:Queued),0.001,0.5263158,0.42585465,0.100461155,"In variant 1 it is 10.046116% more likely than variant2 that if [Accepted] occurs: also [Queued] occurs. "
+AtMostOne(Queued),0.003,0.50859106,0.6028708,0.094279766,"In variant 2 it is 9.427977% more likely than variant1 that [Queued] may occur at most one time in a process instance. "

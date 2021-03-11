@@ -1,0 +1,53 @@
+'Constraint';'Template';'Activation';'Target';'Support';'Confidence level';'Interest factor'
+'AtMostOne(Add penalty)';'AtMostOne';'Add penalty';;1.000;0.497;0.247
+'NotSuccession(Add penalty, Create Fine)';'NotSuccession';'Add penalty';'Create Fine';1.000;0.497;0.497
+'CoExistence(Add penalty, Insert Fine Notification)';'CoExistence';'Add penalty';'Insert Fine Notification';1.000;0.497;0.247
+'NotSuccession(Add penalty, Insert Fine Notification)';'NotSuccession';'Add penalty';'Insert Fine Notification';1.000;0.497;0.247
+'NotChainSuccession(Add penalty, Payment)';'NotChainSuccession';'Add penalty';'Payment';0.763;0.374;0.186
+'NotSuccession(Add penalty, Send Fine)';'NotSuccession';'Add penalty';'Send Fine';1.000;0.497;0.328
+'AlternateResponse(Add penalty, Send for Credit Collection)';'AlternateResponse';'Add penalty';'Send for Credit Collection';0.729;0.363;0.131
+'AlternatePrecedence(Create Fine, Add penalty)';'AlternatePrecedence';'Add penalty';'Create Fine';1.000;1.000;0.497
+'AlternatePrecedence(Send Fine, Add penalty)';'AlternatePrecedence';'Add penalty';'Send Fine';1.000;0.659;0.328
+'AtMostOne(Create Fine)';'AtMostOne';'Create Fine';;1.000;1.000;1.000
+'Init(Create Fine)';'Init';'Create Fine';;1.000;1.000;1.000
+'NotChainSuccession(Create Fine, Add penalty)';'NotChainSuccession';'Create Fine';'Add penalty';1.000;0.497;0.497
+'NotChainSuccession(Create Fine, Insert Fine Notification)';'NotChainSuccession';'Create Fine';'Insert Fine Notification';1.000;0.497;0.497
+'NotChainSuccession(Create Fine, Payment)';'NotChainSuccession';'Create Fine';'Payment';0.553;0.271;0.271
+'AlternateResponse(Create Fine, Send Fine)';'AlternateResponse';'Create Fine';'Send Fine';0.659;0.659;0.434
+'NotChainSuccession(Create Fine, Send for Credit Collection)';'NotChainSuccession';'Create Fine';'Send for Credit Collection';1.000;0.363;0.363
+'AtMostOne(Insert Fine Notification)';'AtMostOne';'Insert Fine Notification';;1.000;0.497;0.247
+'AlternatePrecedence(Create Fine, Insert Fine Notification)';'AlternatePrecedence';'Insert Fine Notification';'Create Fine';1.000;1.000;0.497
+'AlternateSuccession(Insert Fine Notification, Add penalty)';'AlternateSuccession';'Insert Fine Notification';'Add penalty';1.000;0.497;0.247
+'NotSuccession(Insert Fine Notification, Create Fine)';'NotSuccession';'Insert Fine Notification';'Create Fine';1.000;0.497;0.497
+'NotChainSuccession(Insert Fine Notification, Payment)';'NotChainSuccession';'Insert Fine Notification';'Payment';0.949;0.465;0.231
+'NotSuccession(Insert Fine Notification, Send Fine)';'NotSuccession';'Insert Fine Notification';'Send Fine';1.000;0.497;0.328
+'AlternateResponse(Insert Fine Notification, Send for Credit Collection)';'AlternateResponse';'Insert Fine Notification';'Send for Credit Collection';0.729;0.363;0.131
+'NotChainSuccession(Insert Fine Notification, Send for Credit Collection)';'NotChainSuccession';'Insert Fine Notification';'Send for Credit Collection';1.000;0.363;0.180
+'AlternatePrecedence(Send Fine, Insert Fine Notification)';'AlternatePrecedence';'Insert Fine Notification';'Send Fine';1.000;0.659;0.328
+'AtMostOne(Payment)';'AtMostOne';'Payment';;0.951;0.466;0.228
+'Precedence(Create Fine, Payment)';'Precedence';'Payment';'Create Fine';1.000;1.000;0.490
+'NotChainSuccession(Payment, Add penalty)';'NotChainSuccession';'Payment';'Add penalty';0.949;0.465;0.231
+'NotSuccession(Payment, Create Fine)';'NotSuccession';'Payment';'Create Fine';1.000;0.490;0.490
+'NotChainSuccession(Payment, Insert Fine Notification)';'NotChainSuccession';'Payment';'Insert Fine Notification';0.999;0.490;0.244
+'NotChainSuccession(Payment, Send Fine)';'NotChainSuccession';'Payment';'Send Fine';0.994;0.487;0.321
+'NotChainSuccession(Payment, Send for Credit Collection)';'NotChainSuccession';'Payment';'Send for Credit Collection';0.979;0.355;0.174
+'AtMostOne(Send Fine)';'AtMostOne';'Send Fine';;1.000;0.659;0.434
+'Participation(Send Fine)';'Participation';'Send Fine';;0.659;0.434;0.286
+'AlternatePrecedence(Create Fine, Send Fine)';'AlternatePrecedence';'Send Fine';'Create Fine';1.000;1.000;0.659
+'AlternateResponse(Send Fine, Add penalty)';'AlternateResponse';'Send Fine';'Add penalty';0.755;0.497;0.247
+'NotChainSuccession(Send Fine, Add penalty)';'NotChainSuccession';'Send Fine';'Add penalty';1.000;0.497;0.328
+'NotSuccession(Send Fine, Create Fine)';'NotSuccession';'Send Fine';'Create Fine';1.000;0.659;0.659
+'AlternateResponse(Send Fine, Insert Fine Notification)';'AlternateResponse';'Send Fine';'Insert Fine Notification';0.755;0.497;0.247
+'NotChainSuccession(Send Fine, Payment)';'NotChainSuccession';'Send Fine';'Payment';0.971;0.476;0.314
+'AlternateResponse(Send Fine, Send for Credit Collection)';'AlternateResponse';'Send Fine';'Send for Credit Collection';0.550;0.363;0.131
+'NotChainSuccession(Send Fine, Send for Credit Collection)';'NotChainSuccession';'Send Fine';'Send for Credit Collection';1.000;0.363;0.239
+'AtMostOne(Send for Credit Collection)';'AtMostOne';'Send for Credit Collection';;1.000;0.363;0.131
+'AlternatePrecedence(Add penalty, Send for Credit Collection)';'AlternatePrecedence';'Send for Credit Collection';'Add penalty';1.000;0.497;0.180
+'AlternatePrecedence(Create Fine, Send for Credit Collection)';'AlternatePrecedence';'Send for Credit Collection';'Create Fine';1.000;1.000;0.363
+'AlternatePrecedence(Insert Fine Notification, Send for Credit Collection)';'AlternatePrecedence';'Send for Credit Collection';'Insert Fine Notification';1.000;0.497;0.180
+'AlternatePrecedence(Send Fine, Send for Credit Collection)';'AlternatePrecedence';'Send for Credit Collection';'Send Fine';1.000;0.659;0.239
+'NotSuccession(Send for Credit Collection, Add penalty)';'NotSuccession';'Send for Credit Collection';'Add penalty';1.000;0.363;0.180
+'NotSuccession(Send for Credit Collection, Create Fine)';'NotSuccession';'Send for Credit Collection';'Create Fine';1.000;0.363;0.363
+'NotSuccession(Send for Credit Collection, Insert Fine Notification)';'NotSuccession';'Send for Credit Collection';'Insert Fine Notification';1.000;0.363;0.180
+'NotSuccession(Send for Credit Collection, Payment)';'NotSuccession';'Send for Credit Collection';'Payment';1.000;0.363;0.178
+'NotSuccession(Send for Credit Collection, Send Fine)';'NotSuccession';'Send for Credit Collection';'Send Fine';1.000;0.363;0.239

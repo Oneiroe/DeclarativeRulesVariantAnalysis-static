@@ -1,0 +1,5 @@
+RESULTS
+"In variant 1 it is 10.11599% more likely than variant2 that if [Completed] occurs, also [Queued] occurs. "
+"In variant 1 it is 10.046116% more likely than variant2 that if [Accepted] occurs, also [Queued] occurs. "
+"In variant 1 it is 10.036596% more likely than variant2 that [Queued] occurs in every process instance. "
+"In variant 2 it is 9.427977% more likely than variant1 that [Queued] may occur at most one time in a process instance. "
